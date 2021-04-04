@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"]
+    },
+    "module": "es2020",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "declarationDir": "build",
+    "outDir": "build",
+    "rootDirs": ["src"],
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "target": "ES6",
+    "allowJs": false,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "declaration": true,
+    "types": ["react", "node"],
+    "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "exclude": [
+      "node_modules",
+      "build",
+      "dist"
+  ],
+}
