@@ -1,6 +1,6 @@
 {
-  "name": "react-stack-icons-spots",
-  "version": "0.0.1",
+  "name": "reactjs-stack-icons",
+  "version": "0.1.0",
   "description": "Icons and spots of Stackeroverflow design system optimized for React user ",
   "main": "build/index.js",
   "files": [
