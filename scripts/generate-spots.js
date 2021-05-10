@@ -2,8 +2,8 @@ const path = require('path');
 const { readdirSync, writeFile } = require('fs');
 
 const cwd = process.cwd();
-const svgFolder = path.resolve(cwd, 'src/components/Spot/svg');
-const resultFolder = path.resolve(cwd, 'src/components/Spot');
+const svgFolder = path.resolve(cwd, 'src/Spot/spot-asset');
+const resultFolder = path.resolve(cwd, 'src/Spot');
 
 let content = '';
 let exportResult = '';
@@ -13,7 +13,7 @@ content += '/* eslint-disable */\n'; // disable eslint for the file
 
 readdirSync(svgFolder).forEach(file => {
   const filename = path.basename(file, path.extname(file));
-  exportResult += `\t'${filename}': () =>  import('./svg/${filename}'),\n`;
+  exportResult += `\t'${filename}': () =>  import('./spot-asset/${filename}'),\n`;
 });
 
 content += `\n\nexport default {\n${exportResult}}`;
