@@ -1,7 +1,7 @@
 {
   "name": "reactjs-stack-icons",
   "version": "0.1.3",
-  "description": "Icons and spots of Stackeroverflow design system optimized for React user ",
+  "description": "Icons and spots of stackoverflow design system optimized for React user ",
   "main": "build/index.js",
   "keywords": ["reactjs", "typescript", "icons", "jsx", "stackoverflow"],
   "files": [

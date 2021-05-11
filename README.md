@@ -1,5 +1,5 @@
 # reactjs-stack-icons
-Icons and spots of Stackeroverflow design system optimized for ReactJs user. 
+Icons and spots of [stackoverflow](https://stackoverflow.com/) design system optimized for ReactJs user. 
 
 ReactJs implementation of [Stack-Icons](https://github.com/StackExchange/Stacks-Icons). 
 
