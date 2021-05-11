@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "Icons and spots of Stackeroverflow design system optimized for React user ",
   "main": "build/index.js",
-  "keywords": ["reactjs", "typescript", "icons", "jsx"],
+  "keywords": ["reactjs", "typescript", "icons", "jsx", "stackoverflow"],
   "files": [
     "build/**/*"
   ],
